@@ -1,0 +1,13 @@
+﻿Duties
+
+Faiyaz:
+Reformatted how scenes should be made. Implemented factory design pattern on SceneFactory. Assisted on splitting controller into central controller and TagManager. Assisted in making viewController which was responsible for switching scenes. Added feature to add or remove multiple tags. Assisted redesigned master log window. Wrote help.txt. Incorporated search tag onto the program.  Identified and fixed bugs from phase1 such as choosing the same image file from directory where tags don’t persist. Made JUnit tests for TagController and ImageFileController.
+
+Sumit:
+Assisted in implementing MVC by dividing the classes into packages. Implemented observer/observable pattern so that viewController gets notified anytime any imageFile has been changed and informs the GUI and CentralController accordingly. Helped split up the functionality of CentralController by delegating to ImageFileController and TagController. Assisted in making viewController which is responsible for switching scenes and linking GUI and CentralController. Updated the GUI classes to incorporate viewController class. Assisted in creating master log window. Helped incorporated search tag onto the program. Helped fixing bugs from phase1 such as choosing the same image file from directory where tags don’t persist.
+
+Bo:
+Helped research and discuss about design patterns to implement in our program. Researched the observer/observable pattern and how to use it for the MVC design. Helped in creating the search tag method (new feature). Improved LogScene by having the table be automatically sorted. Helped go through all classes and write java doc and comments. Helped fix errors and warnings in all classes. Helped make code in classes more concise and readable. Helped in testing the program and OS-dependent features. Created .gitignore file.
+
+Greata:
+Design and implement the new search feature with JavaFX; creating Javadoc and comments for all classes, fixing code formatting issues; creating the UML diagrams; incorporate phase 1 feedback into phase 2 design; researching, discussing and improving code structure and designs with the SOLID principles and MVC designs; discussing with groups about design patterns on why specific design was or wasn’t implemented; going through written codes, running user testing and debugging for problems; providing feedbacks and fixing errors; supporting all group members with any assignment related requirements.

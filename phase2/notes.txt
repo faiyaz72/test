@@ -1,0 +1,120 @@
+TODO:
+Please verify all. I wrote these very late at night.
+
+package controller
+	Central controller
+		Updated:
+			revertImageFileToTags
+			dissociateTag
+			getTagController
+			getImageFileController
+		TODO:
+			check constructor doc, I don't know exactly what do write here for the instance of tagController and imageFileController
+			also check getTagController and getImageFileController
+			question: should method parameters be package.Class? some are package.Class, but some are just Class
+		
+	TagController
+		Updated:
+			all methods and constructor
+		
+	ImageFileController
+		Updated:
+			all methods and constructor
+		TODO:
+			check last method Map<String, String> getAllLog()
+	
+package helperClasses
+	DesktopAPI
+		updated formatting
+		removed extra space
+	FillWithThumbnails
+		TODO:
+		check Constructor doc, I'm not sure about this one.
+	ListImages
+		TODO:
+		check addObserversToImageFiles doc, I'm not sure about this one.
+
+package model:
+	DataBase:
+		Updated:
+			all methods and constructor
+		TODO:
+			check over docs in this whole class, on any methods database related
+			check line 14-15, remove?
+			fix readFromFile doc, i'm unclear on the return and throws here
+	ImageFile
+		Updated:
+			getOriginalNameWithTags
+			formatting of blank lines, moved some comments to end of line
+			equals
+			hashCode
+			getTagHistory
+			getImageName
+			getCurrentTags
+			getImagePath
+			hasTag
+			replaceTagWith
+			getOriginalName
+		TODO:
+			check getImage, it has 4 lines of block comments
+			check equals doc
+			check replaceTagWith
+	Tag
+		Updated:
+			all methods java doc
+			formatting of blank lines
+			
+package main
+	Application
+		TODO:
+			need to fix javadoc for this
+			
+package view
+	AddTagFromDatabaseScene
+		Updated:
+			all available methods and updated comments
+	AlertBox
+		Updated:
+			all available methods and updated comments
+	AllImagesModifiedScene
+		Updated:
+			all available methods and updated comments
+	DeleteTagScene
+		Updated:
+			all available methods and updated comments
+	ImageModifierScene
+		Updated:
+			all available methods and updated comments
+	IsScene
+		Updated:
+			formatting, constructor
+	LauncherWindow
+		Updated:
+			all available methods and updated comments
+	LogScene
+		Updated:
+			all available methods and updated comments
+	MasterLogScene
+		Updated:
+			all available methods and updated comments
+	MasterTagWindow
+		Updated:
+			all available methods and updated comments
+	RenameTagScene
+		Updated:
+			all available methods and updated comments
+	SearchTagScene
+		Updated:
+			all available methods and updated comments
+	ShowFilesWithSelectedTagScene
+		Updated:
+			all available methods and updated comments
+	TagScene
+		Updated:
+			all available methods and updated comments
+	TagSceneFactory
+		Updated:
+			formatting, shifted comments
+	TagWindowForImage
+		Updated:
+			formatting, shifted comments

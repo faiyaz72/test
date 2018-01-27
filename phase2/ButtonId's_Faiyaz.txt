@@ -1,0 +1,19 @@
+Buttons IDs
+
+Class: AddTagsFromDatabaseScene
+backButton.setId("BackButtonAddTagFromDatabase");
+AddTagToImage.setId("AddTagToImage");
+
+Class: DeleteTagScene
+backButton.setId("BackButtonDeleteTag");
+confirmDelete.setId("ConfirmDelete");
+
+Class: CreateNewTagScene
+backButton.setId("BackButtonCreateTag");
+makeNewTag.setId("MakeNewTagButton");
+
+Class: TagWindow
+addTagFromDatabase.setId("AddTagFromDatabase");
+createNewTag.setId("CreateNewTag");
+deleteTag.setId("DeleteTag");
+close.setId("Close");

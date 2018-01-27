@@ -1,0 +1,11 @@
+Instructions for running TAGGER
+
+1) From our group repository (group_0541) navigate using the following command 
+	phase2/src/
+2) Next do the following command: 
+	javac main/Application.java
+3) Finally, run the program by executing:
+	java main.Application
+
+Note:
+The test cases we used, use JUnit 3, It may not compile if the System does not have this module. 
